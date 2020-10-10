@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="196.0" layoutY="23.0" text="INSERTE UNA FRASE" />
+      <TextField fx:id="txtFrase" layoutX="88.0" layoutY="55.0" prefHeight="25.0" prefWidth="321.0" />
+      <Button layoutX="88.0" layoutY="98.0" mnemonicParsing="false" onAction="#evento" text="Aceptar" />
+      <Label fx:id="lblResultado" layoutX="104.0" layoutY="191.0" text="Resultado">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="184.0" layoutY="98.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
